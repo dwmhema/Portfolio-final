@@ -1,0 +1,341 @@
+
+// -----------------------------
+// Variables
+// -----------------------------
+
+$color: #555
+$lightColor: #efefef
+$darkColor: #333
+$fnfamily:Impact
+
+// -----------------------------
+// Global Styles
+// -----------------------------
+*
+  box-sizing: border-box
+
+body
+  padding: 0
+  margin: 0
+  font-size: 14px
+  font-family: sans-serif
+  color: $color
+
+a
+  text-decoration: none
+  display: inline-block
+  color: $color
+
+// -----------------------------
+// App Specific
+// -----------------------------
+.wrapper
+  max-width:1280px
+  margin: 0 auto
+
+
+.header, .main, .footer
+  width: 100%
+  display: block
+  clear: both
+  float: left
+
+// -----------------------------
+// Header
+// -----------------------------
+
+.header
+  padding: 20px
+  height:200px
+  text-align:center
+  background:url("/assets/images/backgd.jpg") no-repeat
+  backgound-size:cover
+  background-position:center
+  color:#fff   
+
+// -----------------------------
+// Navigation
+// -----------------------------
+
+.nav
+  margin: 0
+  padding: 0
+  width:100%
+
+  li
+    margin-top:30px
+    padding-left:3.33%
+    width:16%
+    display: inline-block
+    list-style: none
+
+    a
+      padding: 5px 10px
+      color:#ffffff
+      font-family:$fnfamily
+      font-size:1.5em
+      text-shadow:1px solid #000
+      &:hover 
+        color:#f39c12
+        text-shadow:3px solid #fff
+
+// -----------------------------
+// Main
+// -----------------------------
+
+.main
+  //border-bottom: 1px solid $lightColor
+  height:auto
+  background-color:#16a085
+  width:100%
+  color:#623623
+  .imgMain
+    width:20%
+    margin-left:10%
+    float:left
+    display:block
+    img 
+      width:100%
+      height:100%
+
+  .myself
+    width:30%
+    height:300px
+    margin-left:2.5%
+    margin-bottom:30px
+    float:left
+    display:block
+    border: 2px solid #000
+    box-shadow: 2px 2px 0px #888888
+    background-color:#eee
+    p 
+      padding:10px
+    h3
+      text-align:center  
+.test 
+  width:90%
+  float:left
+  margin:5%
+  article
+    width:100% 
+    background-color:#ecf0f1
+    border-radius: 10px
+    h3
+      text-align:center
+      padding:20px
+      font-size:18px
+      font-family:Impact
+    p 
+      padding:5px 20px 20px 20px
+      text-align:left 
+      font-size:14px
+
+.widget
+  width:30%
+  height:300px
+  margin-left:2.5%
+  margin-bottom:30px
+  float:left
+  display:block
+  border: 2px solid #000
+  opacity:1
+  color:#fff
+  background-color:#34495e
+  &:hover 
+      opacity:0.6
+  h3
+    text-align:center
+  .utube
+    width:90%
+    height:70%
+    margin:5%
+    //background-color:#983480
+
+
+.page-home
+  text-align:center
+
+.page-about
+  text-align:center
+
+.page-work 
+  text-align:center 
+
+.page-gallery
+  text-align:center
+.photos
+  width:100%
+  height:400px 
+  h3 
+    text-align:center
+  ul
+    width:100%
+    li 
+      width:20%
+      margin:5%
+      display:block
+      float:left
+      img 
+        width:100%
+
+
+.page-contact
+  text-align:center  
+.contform 
+  width:90%
+  height:300px
+  margin-left:5%
+  .fm
+    width:70%
+    margin-left:30%
+    text-align:center
+    clear:both
+    .labelappend, input
+      width:50%
+      float:left
+      height:30px
+      marging-left:25%
+      margin-top:5px
+      font-size:18px
+      clear:both
+    .but
+      background-color:#3498db
+      margin-top:30px
+      height:40px
+      color:#fff
+      font-size:18px
+    .iput
+      font-size:18px
+      text-align:center
+      margin-top:30px
+
+    
+  .bobby 
+    background: #2d3e5e
+    perspective: 1000px
+    z-index:5
+
+    .particle 
+      width: 20px
+      height: 20px
+      display: block
+      position: absolute
+      transition: all 0.5s
+      transform: translate3d(0,0,0)
+      transform-style: preserve-3d
+      border-radius: 50%
+      z-index:7
+
+
+// -----------------------------
+// Footer
+// -----------------------------
+
+.footer
+  padding: 20px
+  background-color:#34495e
+  height:120px
+  text-align:center
+  color:#f39c12
+
+  p
+    margin: 0
+    padding: 0
+    font-size: 1.4em
+
+@media screen and (max-width: 767px)
+  .main 
+    .myself
+      width:90%
+      height:300px
+      margin-left:5%
+      margin-bottom:30px
+      float:left
+      display:block
+      border: 2px solid #000
+      box-shadow: 2px 2px 0px #888888
+      background-color:#eee
+      p 
+        padding:10px
+      h3
+        text-align:center  
+  .main
+    width:100%
+    .imgMain
+      width:90%
+      margin:20px 5% 0 5%
+      display:block
+      img 
+        width:100%
+        height:auto
+        border-radious:10px
+
+  .widget
+    width:90%
+    margin-left:5%
+    margin-bottom:30px
+    float:left
+    display:block
+    border: 2px solid #000
+    opacity:1
+    background-color:#34495e
+    &:hover 
+          opacity:0.6
+    h3
+      text-align:center
+    .utube
+      width:90%
+      margin:5%
+      background-color:#983480
+   
+
+  .header, .main, .footer
+    width: 100%
+    height:150%
+    display: block
+    clear: both
+    float: left
+    .nav
+      margin: 0
+      padding: 0
+      width:100%
+      height:200px
+
+      li
+        margin-top:5px
+        width:100%
+        height:30px
+        display: inline-block
+        list-style: none
+
+        a
+          padding: 5px 10px
+          color:#ffffff
+          font-family:$fnfamily
+          font-size:1.5em
+          text-shadow:1px solid #000
+          &:hover 
+            color:#3498db
+  
+  .photos
+    width:100%
+    height:400px 
+    h3 
+      text-align:center
+    ul
+      width:90%
+      margin:20px 0 0 0
+      li 
+        width:100%
+        display:block
+        float:left
+        margin:20px 0 0 0
+        img 
+          width:100%
+    
+
+  
+
+
+
+

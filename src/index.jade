@@ -1,0 +1,152 @@
+doctype html
+html
+
+  head
+
+  meta(charset="utf-8")
+
+  meta(http-equiv="X-UA-Compatible", content="IE=edge")
+
+  title Assignment Final
+
+  meta(name="description", content="Hello World")
+
+  meta(name="viewport", content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui")
+
+  link(rel="stylesheet", href="assets/styles/main.css", type="text/css")
+
+  body
+
+  div.wrapper
+
+    header.header
+
+      h1 Hemachandra Dewamuni
+
+      ul.nav
+
+        li: a(href="/") Home
+
+        li: a(href="/about") About
+
+        li: a(href="/work") Work
+
+        li: a(href="/gallery") Gallery
+
+        li: a(href="/contact") Contact
+
+    div.main
+
+    footer.footer
+      
+      p Copyright &copy; Hemachandra Dewamuni
+     
+  // -----------------------------
+  // Templates
+  // -----------------------------
+
+  script#home(type="text/template").
+    <div class="page-home">{{{content}}}</div>
+      <div class="imgMain">{{{image1}}}</div>
+      <div class="imgMain">{{{image2}}}</div>
+      <div class="imgMain">{{{image3}}}</div>
+    <div class="test">
+      <article>
+        <h3>Testimonial</h3>
+        <p><b>Hemachandra Dewamuni</b> is a Web developer. He has developed an exceptional
+          Web site for our organization. I strongly recommend his creative strategy
+          work at all level of sophistication. I wish him good luck for his future endu</p>
+        <p><b>Keerthi, President of UKAAC<b></P>
+      </article>
+    </div>      
+  script#about(type="text/template").
+    <div class="page-about">{{{content}}}</div>
+    <div class="myself">
+      <h3>Professional Career</h3>
+      <p>I am a Web Developer in Toronto, and I have been working as a freelance developer for many years; I am very much comfortable of HTML/CSS/LESS/PHP, and I mostly use JavaScript and some other frame works to make interactivity of my web app.</p>
+    </div>
+    <div class="myself">
+       <h3>Educational Background</h3>
+      <p>I graduated B.Sc special digree in Mathematics from University of Kelaniya, Sri Lanka and then I worked as a high school Math Teacher in leading Catholic school in Colombo.  </p>
+      <p>I also worked as a software application developer such as Payroll, Inventory control, and Hotel Front office systems; I mostly worked with Foxpro and SQL</P>
+    </div>  
+    <div class="myself">
+      <h3>Hobbies</h3>
+      <p>I love all kind of music except rap music because I can't understand any word of them, and I love all sports except boxing because I don't like to see blood at any events. My favourite sports are Cricket and Soccer </p>
+      <p>I can cook some European and Sri Lankan foods, so cooking is also one my hobbies, in addition I love landscaping and gardening</p>
+    </div>
+  script#work(type="text/template").
+    <div class="page-work">{{{content}}}</div>
+    <div class="widget">
+      <h3>Embeded YouTube Video</h3>
+      <div class="utube">
+        <iframe width="100%" height="100%" src="//www.youtube.com/embed/LawClvkSyDU?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="widget">
+      <h3>Google Map API</h3>
+      <div id="ggle" class="utube">  
+      </div>
+    </div>
+    <div class="widget">
+      <h3>Particle</h3>
+      <div class="utube bobby">
+      
+      </div>  
+    </div>
+  script#gallery(type="text/template").
+    <div class="page-gallery">{{{content}}}</div>
+    <div class="photos">
+      <h3>Parse Data</h3>
+      <ul>
+        <li><img src="assets/images/newtt.jpg" ></li>
+        <li><img src="assets/images/wwomen.jpg" ></li>
+        <li><img src="assets/images/portnew.jpg" ></li>
+        <li><img src="assets/images/newtt.jpg" ></li>
+        <li><img src="assets/images/newtt.jpg" ></li>
+        <li><img src="assets/images/newtt.jpg" ></li>
+      </ul>
+    </div>
+    
+  script#contact(type="text/template").
+    <div class="page-contact">{{{content}}}</div>
+    <div class="contform">
+      <form class="fm">
+        <label>
+          <div class="labelappend">Name</div>
+          <input type="text">
+        </label>
+        <label>
+          <div class="labelappend">Email</div>
+          <input type="email" >
+        </label>
+        <label>
+          <div class="labelappend">Phone</div>
+          <input type="text">
+        </label>
+        <input type="submit" class="but">
+      </form>
+    </div>
+
+  // -----------------------------
+  // Libraries
+  // -----------------------------
+  script(type="text/javascript", src="https://maps.googleapis.com/maps/api/js?")
+    
+  script(type="text/javascript", src="http://code.jquery.com/jquery-2.1.1.min.js")
+
+  script(type="text/javascript", src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore.js")
+
+  script(type="text/javascript", src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone.js")
+
+  script(type="text/javascript", src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js")
+
+  script(type="text/javascript", src="https://maps.googleapis.com/maps/api/js?")
+
+
+  // -----------------------------
+  // Application
+  // -----------------------------
+
+
+  script(type="text/javascript", src="assets/scripts/main.js")
