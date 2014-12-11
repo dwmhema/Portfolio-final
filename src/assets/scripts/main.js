@@ -191,7 +191,7 @@ jQuery(function($) {
       // Set update the containers HTML
       $(this.el).html(html);
 
-      //Particle    
+     //Particle (JavaScript/SASS)
       // Store reference to bobby element
       var bobby = $('.bobby');
 
