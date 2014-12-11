@@ -8,8 +8,10 @@
 - Run npm install express
 - Run npm install sass
 
-
 Set up the gulpfile.js file in order to work with dependencies, 
+whenever you edit any file, you have to run gulp or gulp watch then all 
+file will be updated accordingly. 
+
 
 ## Dependancies
 
