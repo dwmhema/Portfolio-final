@@ -1,8 +1,8 @@
-/* line 8, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+/* line 8, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
 * {
   box-sizing: border-box; }
 
-/* line 11, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+/* line 11, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
 body {
   padding: 0;
   margin: 0;
@@ -10,25 +10,25 @@ body {
   font-family: sans-serif;
   color: #555; }
 
-/* line 18, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+/* line 18, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
 a {
   text-decoration: none;
   display: inline-block;
   color: #555; }
 
-/* line 23, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+/* line 23, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
 .wrapper {
   max-width: 1280px;
   margin: 0 auto; }
 
-/* line 28, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+/* line 28, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
 .header, .main, .footer {
   width: 100%;
   display: block;
   clear: both;
   float: left; }
 
-/* line 35, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+/* line 35, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
 .header {
   padding: 20px;
   height: 200px;
@@ -38,47 +38,47 @@ a {
   background-position: center;
   color: #fff; }
 
-/* line 45, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+/* line 45, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
 .nav {
   margin: 0;
   padding: 0;
   width: 100%; }
-  /* line 50, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+  /* line 50, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
   .nav li {
     margin-top: 30px;
     padding-left: 3.33%;
     width: 16%;
     display: inline-block;
     list-style: none; }
-    /* line 57, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 57, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .nav li a {
       padding: 5px 10px;
       color: #ffffff;
       font-family: Impact;
       font-size: 1.5em;
       text-shadow: 1px solid #000; }
-      /* line 63, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+      /* line 63, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
       .nav li a:hover {
         color: #f39c12;
         text-shadow: 3px solid #fff; }
 
-/* line 68, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+/* line 68, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
 .main {
   height: auto;
   background-color: #16a085;
   width: 100%;
   color: #623623; }
-  /* line 73, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+  /* line 73, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
   .main .imgMain {
     width: 20%;
     margin-left: 10%;
     float: left;
     display: block; }
-    /* line 78, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 78, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .main .imgMain img {
       width: 100%;
       height: 100%; }
-  /* line 82, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+  /* line 82, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
   .main .myself {
     width: 30%;
     height: 300px;
@@ -89,36 +89,36 @@ a {
     border: 2px solid #000;
     box-shadow: 2px 2px 0px #888888;
     background-color: #eee; }
-    /* line 92, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 92, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .main .myself p {
       padding: 10px; }
-    /* line 94, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 94, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .main .myself h3 {
       text-align: center; }
 
-/* line 96, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+/* line 96, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
 .test {
   width: 90%;
   float: left;
   margin: 5%; }
-  /* line 100, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+  /* line 100, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
   .test article {
     width: 100%;
     background-color: #ecf0f1;
     border-radius: 10px; }
-    /* line 104, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 104, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .test article h3 {
       text-align: center;
       padding: 20px;
       font-size: 18px;
       font-family: Impact; }
-    /* line 109, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 109, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .test article p {
       padding: 5px 20px 20px 20px;
       text-align: left;
       font-size: 14px; }
 
-/* line 114, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+/* line 114, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
 .widget {
   width: 30%;
   height: 300px;
@@ -130,70 +130,70 @@ a {
   opacity: 1;
   color: #fff;
   background-color: #34495e; }
-  /* line 125, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+  /* line 125, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
   .widget:hover {
     opacity: 0.6; }
-  /* line 127, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+  /* line 127, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
   .widget h3 {
     text-align: center; }
-  /* line 129, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+  /* line 129, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
   .widget .utube {
     width: 90%;
     height: 70%;
     margin: 5%; }
 
-/* line 135, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+/* line 135, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
 .page-home {
   text-align: center; }
 
-/* line 138, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+/* line 138, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
 .page-about {
   text-align: center; }
 
-/* line 141, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+/* line 141, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
 .page-work {
   text-align: center; }
 
-/* line 144, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+/* line 144, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
 .page-gallery {
   text-align: center; }
 
-/* line 146, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+/* line 146, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
 .photos {
   width: 100%;
   height: 400px; }
-  /* line 149, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+  /* line 149, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
   .photos h3 {
     text-align: center; }
-  /* line 151, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+  /* line 151, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
   .photos ul {
     width: 100%; }
-    /* line 153, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 153, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .photos ul li {
       width: 20%;
       margin: 5%;
       display: block;
       float: left; }
-      /* line 158, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+      /* line 158, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
       .photos ul li img {
         width: 100%; }
 
-/* line 162, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+/* line 162, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
 .page-contact {
   text-align: center; }
 
-/* line 164, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+/* line 164, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
 .contform {
   width: 90%;
   height: 300px;
   margin-left: 5%; }
-  /* line 168, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+  /* line 168, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
   .contform .fm {
     width: 70%;
     margin-left: 30%;
     text-align: center;
     clear: both; }
-    /* line 173, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 173, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .contform .fm .labelappend, .contform .fm input {
       width: 50%;
       float: left;
@@ -202,24 +202,24 @@ a {
       margin-top: 5px;
       font-size: 18px;
       clear: both; }
-    /* line 181, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 181, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .contform .fm .but {
       background-color: #3498db;
       margin-top: 30px;
       height: 40px;
       color: #fff;
       font-size: 18px; }
-    /* line 187, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 187, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .contform .fm .iput {
       font-size: 18px;
       text-align: center;
       margin-top: 30px; }
-  /* line 193, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+  /* line 193, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
   .contform .bobby {
     background: #2d3e5e;
     perspective: 1000px;
     z-index: 5; }
-    /* line 198, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 198, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .contform .bobby .particle {
       width: 20px;
       height: 20px;
@@ -231,21 +231,21 @@ a {
       border-radius: 50%;
       z-index: 7; }
 
-/* line 211, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+/* line 211, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
 .footer {
   padding: 20px;
   background-color: #34495e;
   height: 120px;
   text-align: center;
   color: #f39c12; }
-  /* line 218, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+  /* line 218, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
   .footer p {
     margin: 0;
     padding: 0;
     font-size: 1.4em; }
 
 @media screen and (max-width: 767px) {
-  /* line 225, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+  /* line 225, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
   .main .myself {
     width: 90%;
     height: 300px;
@@ -256,26 +256,26 @@ a {
     border: 2px solid #000;
     box-shadow: 2px 2px 0px #888888;
     background-color: #eee; }
-    /* line 235, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 235, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .main .myself p {
       padding: 10px; }
-    /* line 237, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 237, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .main .myself h3 {
       text-align: center; }
-  /* line 239, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+  /* line 239, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
   .main {
     width: 100%; }
-    /* line 241, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 241, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .main .imgMain {
       width: 90%;
       margin: 20px 5% 0 5%;
       display: block; }
-      /* line 245, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+      /* line 245, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
       .main .imgMain img {
         width: 100%;
         height: auto;
         border-radious: 10px; }
-  /* line 250, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+  /* line 250, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
   .widget {
     width: 90%;
     margin-left: 5%;
@@ -285,64 +285,64 @@ a {
     border: 2px solid #000;
     opacity: 1;
     background-color: #34495e; }
-    /* line 259, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 259, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .widget:hover {
       opacity: 0.6; }
-    /* line 261, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 261, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .widget h3 {
       text-align: center; }
-    /* line 263, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 263, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .widget .utube {
       width: 90%;
       margin: 5%;
       background-color: #983480; }
-  /* line 269, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+  /* line 269, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
   .header, .main, .footer {
     width: 100%;
     height: 150%;
     display: block;
     clear: both;
     float: left; }
-    /* line 275, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 275, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .header .nav, .main .nav, .footer .nav {
       margin: 0;
       padding: 0;
       width: 100%;
       height: 200px; }
-      /* line 281, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+      /* line 281, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
       .header .nav li, .main .nav li, .footer .nav li {
         margin-top: 5px;
         width: 100%;
         height: 30px;
         display: inline-block;
         list-style: none; }
-        /* line 288, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+        /* line 288, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
         .header .nav li a, .main .nav li a, .footer .nav li a {
           padding: 5px 10px;
           color: #ffffff;
           font-family: Impact;
           font-size: 1.5em;
           text-shadow: 1px solid #000; }
-          /* line 294, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+          /* line 294, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
           .header .nav li a:hover, .main .nav li a:hover, .footer .nav li a:hover {
             color: #3498db; }
-  /* line 297, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+  /* line 297, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
   .photos {
     width: 100%;
     height: 400px; }
-    /* line 300, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 300, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .photos h3 {
       text-align: center; }
-    /* line 302, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+    /* line 302, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
     .photos ul {
       width: 90%;
       margin: 20px 0 0 0; }
-      /* line 305, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+      /* line 305, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
       .photos ul li {
         width: 100%;
         display: block;
         float: left;
         margin: 20px 0 0 0; }
-        /* line 310, /Users/hemachandradewamuni/Desktop/HemaFinalNode/src/assets/styles/index.sass */
+        /* line 310, /Users/hemachandradewamuni/Desktop/Portfolio-final/src/assets/styles/index.sass */
         .photos ul li img {
           width: 100%; } }
