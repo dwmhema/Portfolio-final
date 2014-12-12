@@ -13,6 +13,8 @@ whenever you edit any file, you have to run gulp or gulp watch then all
 file will be updated accordingly. 
 
 
+Work page is the most important page, but particle are not visible there
+
 ## Dependancies
 
 - [Backbone.js](http://backbonejs.org/)
